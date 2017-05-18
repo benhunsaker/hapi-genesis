@@ -1,0 +1,376 @@
+{
+    "uid": "9203rjjfw09233jfiowerhg89ughh34834iofj4f",
+    "year": 2017,
+    "finalFour": {
+        "location": "",
+        "winner": "",
+        "games": {
+            "eastVsWest": {
+                "vistor": null,
+                "home": null
+            },
+            "midwestVsSouth": {
+                "vistor": null,
+                "home": null
+            },
+            "final": {
+                "vistor": null,
+                "home": null
+            }
+        }
+    },
+    "regions": {
+        "east": {
+            "location": "",
+            "winner": null,
+            "games": {
+                "g1_16": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_15": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_14": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_13": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g5_12": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g6_11": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g7_10": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g8_9": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_8": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_7": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_6": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_5": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_4": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_2": {
+                    "vistor": null,
+                    "home": null
+                }
+            },
+            "seeds": {
+                "s1": null,
+                "s2": null,
+                "s3": null,
+                "s4": null,
+                "s5": null,
+                "s6": null,
+                "s7": null,
+                "s8": null,
+                "s9": null,
+                "s10": null,
+                "s11": null,
+                "s12": null,
+                "s13": null,
+                "s14": null,
+                "s15": null,
+                "s16": null
+            }
+        },
+        "midwest": {
+            "location": "",
+            "winner": null,
+            "games": {
+                "g1_16": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_15": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_14": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_13": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g5_12": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g6_11": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g7_10": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g8_9": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_8": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_7": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_6": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_5": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_4": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_2": {
+                    "vistor": null,
+                    "home": null
+                }
+            },
+            "seeds": {
+                "s1": null,
+                "s2": null,
+                "s3": null,
+                "s4": null,
+                "s5": null,
+                "s6": null,
+                "s7": null,
+                "s8": null,
+                "s9": null,
+                "s10": null,
+                "s11": null,
+                "s12": null,
+                "s13": null,
+                "s14": null,
+                "s15": null,
+                "s16": null
+            }
+        },
+        "south": {
+            "location": "",
+            "winner": null,
+            "games": {
+                "g1_16": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_15": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_14": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_13": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g5_12": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g6_11": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g7_10": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g8_9": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_8": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_7": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_6": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_5": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_4": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_2": {
+                    "vistor": null,
+                    "home": null
+                }
+            },
+            "seeds": {
+                "s1": null,
+                "s2": null,
+                "s3": null,
+                "s4": null,
+                "s5": null,
+                "s6": null,
+                "s7": null,
+                "s8": null,
+                "s9": null,
+                "s10": null,
+                "s11": null,
+                "s12": null,
+                "s13": null,
+                "s14": null,
+                "s15": null,
+                "s16": null
+            }
+        },
+        "west": {
+            "location": "",
+            "winner": null,
+            "games": {
+                "g1_16": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_15": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_14": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_13": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g5_12": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g6_11": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g7_10": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g8_9": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_8": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_7": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g3_6": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g4_5": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_4": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g2_3": {
+                    "vistor": null,
+                    "home": null
+                },
+                "g1_2": {
+                    "vistor": null,
+                    "home": null
+                }
+            },
+            "seeds": {
+                "s1": null,
+                "s2": null,
+                "s3": null,
+                "s4": null,
+                "s5": null,
+                "s6": null,
+                "s7": null,
+                "s8": null,
+                "s9": null,
+                "s10": null,
+                "s11": null,
+                "s12": null,
+                "s13": null,
+                "s14": null,
+                "s15": null,
+                "s16": null
+            }
+        }
+    }
+}

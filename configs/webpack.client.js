@@ -1,4 +1,3 @@
-const NodeExternals = require('webpack-node-externals');
 const Path = require('path');
 const Webpack = require('webpack');
 
@@ -6,22 +5,22 @@ const Webpack = require('webpack');
 module.exports = {
     target:  'node',
 
-    entry:   ['./index.js'],
+    entry:   {
+        app: ['babel-polyfill', Path.resolve(__dirname, '../assets/js/app.js')]
+    },
     output:  {
-        path: Path.join(__dirname, '..', 'dist'),
-        filename: 'server.js'
+        path: Path.join(__dirname, '..', 'dist', 'static', 'js'),
+        filename: '[name].bundle.js'
     },
 
     cache:   false,
     context: Path.resolve(__dirname, '..'),
     devtool: 'source-map',
-    externals: [
-        NodeExternals({ whitelist: ['webpack/hot/poll?1000'] })
-    ],
     module:  {
         rules: [
             {
                 test: /\.js$|\.jsx$/,
+                enforce: 'post',
                 exclude: /node_modules/,
                 use: [
                     { loader: 'babel-loader' }
@@ -36,10 +35,9 @@ module.exports = {
     },
     plugins: [
         new Webpack.EnvironmentPlugin(['NODE_ENV']),
-        new Webpack.BannerPlugin({
-            banner: 'require("source-map-support").install();',
-            raw: true,
-            entryOnly: false
+        new Webpack.optimize.UglifyJsPlugin({
+            minimize: true,
+            sourceMap: true
         })
     ],
     resolve: {

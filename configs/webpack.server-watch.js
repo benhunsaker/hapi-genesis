@@ -1,8 +1,3 @@
-'use strict';
-
-
-const Webpack = require('webpack');
-
 const Config = require('./webpack.server');
 
 

@@ -1,6 +1,3 @@
-'use strict';
-
-
 const Path = require('path');
 
 const root = Path.join(__dirname, '..');
@@ -12,8 +9,10 @@ module.exports = {
     port: process.env.PORT || 8000,
     paths: {
         js: [
-            root + '/**/*.js',
-            '!' + root + '/+(.git|coverage|dist|node_modules)/**/*.js'
+            `${root}/**/*.js`,
+            `!${root}/+(.git|coverage|dist|node_modules)/**/*.js`
         ],
+        sass: `${root}/assets/styles/**/*.scss`,
+        tests: []
     }
-}
+};

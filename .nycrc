@@ -3,7 +3,7 @@
   "cache": true,
   "extension": [".js"],
   "exclude": [
-    "test/**",
+    "tests/**",
     "dist/**",
     "coverage/**",
     "configs/**",

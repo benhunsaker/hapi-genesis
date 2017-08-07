@@ -12,7 +12,7 @@ Config.entry.app.unshift(
 );
 
 Config.devServer = {
-    publicPath: '/dist/js',
+    publicPath: '/js',
     hot: true,
     inline: true,
     lazy: false,

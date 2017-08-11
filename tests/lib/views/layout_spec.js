@@ -4,6 +4,7 @@ import React from 'react';
 
 import Layout from '../../../lib/views/layout';
 import Head from '../../../lib/views/partials/head';
+import { hostname, hmr_port } from '../../../configs/general';
 
 
 describe('Layout component', () => {
@@ -56,5 +57,15 @@ describe('Layout component', () => {
         const jsScript = output.find('script');
         expect(jsScript).to.have.length(1);
         expect(jsScript.prop('src')).to.equal(`/js/${jsScriptName}`);
+    });
+
+    it('body includes 1 instance of script with a source of the passed in script name', () => {
+
+        const orig_NODE_ENV = process.env.NODE_ENV;
+        process.env.NODE_ENV = 'development';
+        const newOutput = shallow(<Layout clientScript={jsScriptName} />);
+        process.env.NODE_ENV = orig_NODE_ENV;
+
+        expect(newOutput.find('script').prop('src')).to.equal(`//${hostname}:${hmr_port}/js/${jsScriptName}`);
     });
 });

@@ -2,7 +2,7 @@ import Good from 'good';
 import Hapi from 'hapi';
 import { expect } from 'chai';
 
-import GoodConfig from '../../../lib/plugins/goodconfig';
+import GoodConfig from '../../../lib/plugins/goodConfig';
 
 
 const internals = {};

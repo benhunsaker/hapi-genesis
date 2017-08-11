@@ -11,7 +11,8 @@ internals.plugins = [
     require('inert'),
     require('../../lib/plugins/goodConfig'),
     require('../../lib/plugins/mongoConfig'),
-    require('../../lib/routes/api')
+    require('../../lib/routes/api'),
+    require('../../lib/routes/root')
 ];
 internals.server = { port: 9999 };
 

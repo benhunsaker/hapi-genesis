@@ -47,8 +47,7 @@
     "hapi": "^16.1.1",
     "hapi-mongodb": "^6.2.1",
     "inert": "^4.2.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -60,10 +59,11 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
-    "chai": "^4.1.0",
+    "chai": "^4.1.1",
     "concurrently": "^3.5.0",
     "del": "^3.0.0",
     "del-cli": "^1.1.0",
+    "enzyme": "^2.9.1",
     "eslint-config-hapi": "^10.0.0",
     "eslint-plugin-hapi": "^4.0.0",
     "eslint-plugin-react": "^7.1.0",
@@ -89,6 +89,8 @@
     "mocha": "^3.5.0",
     "nodemon": "^1.11.0",
     "nyc": "^11.1.0",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1",
     "webpack-node-externals": "^1.6.0"

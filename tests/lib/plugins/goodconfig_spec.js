@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 import Good from 'good';
 import Hapi from 'hapi';
 import { expect } from 'chai';

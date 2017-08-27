@@ -1,5 +1,4 @@
 /* eslint-env mocha */
-
 import { expect } from 'chai';
 import Hapi from 'hapi';
 import Sinon from 'sinon';

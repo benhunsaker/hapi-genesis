@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 import HapiMongoDB from 'hapi-mongodb';
 import Hapi from 'hapi';
 import { expect } from 'chai';

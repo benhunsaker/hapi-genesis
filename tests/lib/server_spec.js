@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 import Hapi from 'hapi';
 import Path from 'path';
 import FS from 'fs';

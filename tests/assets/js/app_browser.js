@@ -1,4 +1,4 @@
-/* eslint-env mocha */
+/* eslint-env mocha, browser */
 
 import React from 'react';
 import ReactDOM from 'react-dom';

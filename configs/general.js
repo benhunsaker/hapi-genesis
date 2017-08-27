@@ -5,7 +5,7 @@ const hmr_port = /* istanbul ignore next */ process.env.hmr_port || 8081;
 
 
 module.exports = {
-    dbUrl: 'mongodb://localhost:27017/nerdlucks',
+    dbUrl: 'mongodb://localhost:27017/hapi-genisus',
     hmr_port,
     hostname: process.env.HOSTNAME || 'localhost',
     port: process.env.PORT || 8000,

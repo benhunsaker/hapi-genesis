@@ -45,11 +45,11 @@ describe('Layout component', () => {
         expect(nav.hasClass('navbar')).to.be.ok;
     });
 
-    it('body includes 1 instance of div with an id "main-content"', () => {
+    it('body includes 1 instance of div with an id "root"', () => {
 
         const contDiv = output.find('div');
         expect(contDiv).to.have.length(1);
-        expect(contDiv.prop('id')).to.equal('main-content');
+        expect(contDiv.prop('id')).to.equal('root');
     });
 
     it('body includes 1 instance of script with a source of the passed in script name', () => {

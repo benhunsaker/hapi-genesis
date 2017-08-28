@@ -1,5 +1,5 @@
 {
-  "name": "hapi-genisus",
+  "name": "hapi-genesis",
   "version": "0.0.1",
   "description": "A starter kit with hapi, react, and mongodb",
   "main": "index.js",
@@ -31,14 +31,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benhunsaker/hapi-genisus.git"
+    "url": "git+https://github.com/benhunsaker/hapi-genesis.git"
   },
   "author": "Ben Hunsaker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benhunsaker/hapi-genisus/issues"
+    "url": "https://github.com/benhunsaker/hapi-genesis/issues"
   },
-  "homepage": "https://github.com/benhunsaker/hapi-genisus#readme",
+  "homepage": "https://github.com/benhunsaker/hapi-genesis#readme",
   "dependencies": {
     "boom": "^4.3.1",
     "good": "^7.3.0",
